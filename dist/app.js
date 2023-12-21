@@ -8,3 +8,5 @@ ham.addEventListener("click", () => {
 
 
 })
+
+// aos
