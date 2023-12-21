@@ -975,8 +975,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             display: flex;
         }
         .lg\:h-10 {
-            height: 25rem;
-            width: 25rem;
+            height: 28rem;
+            width: 28rem;
         }
     }
     
