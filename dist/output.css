@@ -803,7 +803,8 @@ video {
 }
 
 .w-48 {
-    width: 12rem;
+    width: 28rem;
+    height: 28rem;
 }
 
 .cursor-pointer {
@@ -876,6 +877,11 @@ video {
 .bg-indigo-950 {
     --tw-bg-opacity: 1;
     background-color: rgb(30 27 75 / var(--tw-bg-opacity));
+}
+
+.bg-orangereed-950 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 179 0/ var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
