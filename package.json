@@ -1,5 +1,9 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.4.0"
-  }
+    "devDependencies": {
+        "tailwindcss": "^3.4.0"
+    },
+    "scripts": {
+
+        "build": ""
+    }
 }
