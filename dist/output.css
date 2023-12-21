@@ -793,6 +793,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     .rounded-b-3xl {
         border-bottom-right-radius: 1.5rem;
         border-bottom-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        border-top-left-radius: 1.5rem;
     }
     
     .bg-black {
@@ -870,7 +872,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     }
     
     .p-10 {
-        padding: 2.5rem;
+        padding: 0.5rem;
     }
     
     .py-5 {
@@ -933,6 +935,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             height: 15rem;
             width: 15rem;
         }
+        .sm\:h-11 {
+            height: 15rem;
+            width: 10rem;
+        }
         .sm\:max-h-10 {
             max-height: 2.5rem;
         }
@@ -954,6 +960,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
         .md\:h-10 {
             height: 20rem;
             width: 20rem;
+        }
+        .md\:h-11 {
+            height: 20rem;
+            width: 15rem;
         }
         .md\:h-1\/2 {
             height: 50%;
@@ -977,6 +987,10 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
         .lg\:h-10 {
             height: 28rem;
             width: 28rem;
+        }
+        .lg\:h-11 {
+            height: 30rem;
+            width: 20rem;
         }
     }
     
