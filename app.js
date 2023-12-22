@@ -27,8 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-    // Check if user has a preferred theme
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
     // Toggle theme on button click
     themeToggle.addEventListener('click', function() {
