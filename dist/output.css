@@ -982,7 +982,7 @@ video {
 
 .text-gray-600 {
     --tw-text-opacity: 1;
-    color: rgb(100 100 100 / var(--tw-text-opacity));
+    color: rgb(50 50 50 / var(--tw-text-opacity));
 }
 
 .text-white {
