@@ -44,8 +44,8 @@ var AutoTyping = function(e) {
 
 const exampleText = ['Developer', 'Artist', 'Gamer'];
 const exampleTyping = new AutoTyping('#text', exampleText, {
-    typeSpeed: 50,
-    deleteSpeed: 50,
+    typeSpeed: 70,
+    deleteSpeed: 70,
     waitBeforeDelete: 2000,
     waitBetweenWords: 500,
 });
