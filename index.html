@@ -23,24 +23,24 @@
 
     <nav class="  w-full  fixed top-0 bg-white z-50 " style="box-shadow: 100px;height: 7rem;">
         <div class="container mx-auto py-5 flex items-center justify-between">
-            <div class="flex items-center gap-2  " style="padding-top: 0.3%; z-index: 0;margin-left:4%">
+            <div class="flex items-center gap-2  " style="padding-top: 0.3%; z-index: 0;margin-left:1rem">
                 <img src="./dist/src/favicon (1).png" alt="err ">
                 <span class="font-extrabold" style="color: black ; font-family: 'Almendra Display', serif;font-size:48px"><b>azyCrazy</b></span></div>
-            <ul style="font-size: 1rem;" class=" hidden md:flex gap-10 text-gray-600 uppercase">
+            <ul style="font-size: 1.2rem;gap: 1.5rem;" class=" hidden md:flex text-gray-600 uppercase">
                 <li class=" hover:text-gray-400 class=">
-                    <a href="#">home</a>
+                    <a href="#section1">home</a>
                 </li>
                 <li class=" hover:text-gray-400">
-                    <a href="#">services</a>
+                    <a href="#section2">About me</a>
                 </li>
                 <li class=" hover:text-gray-400">
-                    <a href=" # ">About me</a>
+                    <a href="#section3">services</a>
                 </li>
                 <li class=" hover:text-gray-400">
-                    <a href="#">contacts</a>
+                    <a href="#section4">contacts</a>
                 </li>
             </ul>
-            <img src="./dist/src/moon.png" alt="" class=" theme-toggle md:block w-5 cursor-pointer" style=" right: 4rem;     margin-right:20vw " id="theme-toggle">
+            <img src="./dist/src/moon.png" alt="" class=" theme-toggle md:block w-5 cursor-pointer" style=" right: 1rem;  margin-right:4rem " id="theme-toggle">
 
             <!-- hamburger -->
             <div id="ham" style="position: absolute; right: 0.7rem " class=" space-y-1 md:hidden w-6  cursor-pointer mr-5 z-20">
@@ -52,16 +52,16 @@
             <!-- menu of the hamburger -->
             <ul id="menu" style="top: 7rem ; font-size:22px;" class=" bg-blue-300 hidden absolute left-0 right-0 w-full p-10 rounded-b-3xl text-white uppercase text-center z-10 ">
                 <li style="margin-bottom: 5px;">
-                    <a href="# ">home</a>
+                    <a href="#section1">home</a>
                 </li>
                 <li style="margin-bottom: 5px;">
-                    <a href="# ">services</a>
+                    <a href="#section2">About me</a>
                 </li>
                 <li style="margin-bottom: 5px;">
-                    <a href="# ">About me</a>
+                    <a href="#section3">services</a>
                 </li>
                 <li style="margin-bottom: 5px;">
-                    <a href="# ">contacts</a>
+                    <a href="#section4">contacts</a>
                 </li>
             </ul>
 
@@ -71,67 +71,93 @@
 
 
 
-    <!-- main content -->
-
-
-
-
-    <div class=" bg-gradient-to-t from-indigo-300 relative z-10" style="height:40rem">
-        <img class="absolute mt-9 right-0 left-0  object-cover mx-auto z-20 sm:h-11 md:h-11 lg:h-11" src="/dist/src/art3.png" style="bottom: 0rem;" alt="">
-        <div class="absolute bottom-0 right-0 left-0 mb-8 mx-auto sm:h-10 md:h-10 lg:h-10 bg-orangereed-950 rounded-full z-1" style="bottom: 1rem;"></div>
-        <span style="position: absolute; right: 2rem ;bottom: 0rem;font-family: 'Rubik Doodle Shadow', serif; font-size: 3.6rem; color: rgb(0, 0, 0); " class=" lg:flex  uppercase">Arshdeep</span>
-    </div>
 
 
 
 
 
 
-
-    <!-- box -->
-    <!-- animated text -->
+    <!-- added -->
 
 
-    <div style="top: 17rem ; font-size:2.5rem;" class=" absolute z-20   ">
-        <span style="position: absolute; left: 2rem " class=" lg:flex  uppercase text-gray-600"><b>Freelancer</b></span><br>
-        <span id="text" class=" lg:flex  uppercase" style="position: absolute; left: 7rem;color: crimson; "></span>
-    </div>
-
-
-    <!-- fgviebv -->
-
-    <div style="text-align: center;  padding: 2rem 0.5rem;margin-top: 15rem; " class="uppercase">
-        <span style="font-size: 4rem;font-family: 'Rubik Doodle Shadow', serif; font-size: 3rem; color: rgb(0, 0, 0);" class="absolute right-0 left-0 mb-8 mx-auto">about me</span>
-        <div style="top: 30vh; bottom:0  vh; padding: 6rem 5rem; font-size: 2rem; padding: 2rem; margin: 3rem;">
-            <img src="./dist/src/about.jpg" alt="err" style="display: block; margin: 0 auto;border-radius: 7rem;">
-            <p class="text-gray-600" style="font-style: italic; margin-top: 3rem;">I'm a final yr student of Btech(CSE)from Fiem,Sonarpur.I'm an ex-Naval NCC cadet ,part-time painter and full-time Introvert.</p>
-        </div>
-    </div>
+    <!-- Sections on the Page -->
+    <section id="section1">
+        <!-- <h2>Section 1</h2> -->
+        <!-- Content of Section 1 -->
+        <!-- main content -->
 
 
 
-    <!-- services -->
-    <div style="text-align:center; padding: 2rem 2rem; margin-top: 20rem;" class="uppercase ">
 
-        <span style="font-family: 'Rubik Doodle Shadow', serif; font-size: 3rem; color: rgb(0, 0, 0); " class=" absolute right-0 left-0 mb-8 mx-auto ">Services</span>
-        <div style="margin-top: 9rem; margin-bottom: 10rem; font-weight: bold; color: rgb(141, 139, 139); font-size: 2rem;">
-            <ul>
-                <li>web automation</li>
-                <li>video editing</li>
-                <li>front end dev</li>
-            </ul>
+        <div class=" bg-gradient-to-t from-indigo-300 relative z-10" style="height:40rem">
+            <img class="absolute mt-9 right-0 left-0  object-cover mx-auto z-20 sm:h-11 md:h-11 lg:h-11" src="/dist/src/art3.png" style="bottom: 0rem;" alt="">
+            <div class="absolute bottom-0 right-0 left-0 mb-8 mx-auto sm:h-10 md:h-10 lg:h-10 bg-orangereed-950 rounded-full z-1" style="bottom: 1rem;"></div>
+            <span style="position: absolute; right: 2rem ;bottom: 0rem;font-family: 'Rubik Doodle Shadow', serif; font-size: 3.6rem; color: rgb(0, 0, 0); " class=" lg:flex  uppercase">Arshdeep</span>
         </div>
 
-    </div>
 
-    <footer style=" z-index: 100; width: 100%; height:8vh ;bottom: 0px;background-color: #0b0b0b ;font-weight: bold;font-style: bold;color: white " class=" flex items-center gap-1 sm:gap-10 ">
-        <span style="font-size:1.5rem ;margin-left: 1rem; ">Contact&#9742:-</span>
-        <span style="font-size:1.1rem ;margin-left:1rem; "><a href="https://www.linkedin.com/in/arshdeepsingh11/ " target="_blank ">LinkedIn</a></span>
-        <span style="font-size:1.1rem "><a href="https://github.com/Arsh2001deep " target="_blank ">Github</a></span>
-        <span style="font-size:1.1rem "><a href="https://twitter.com/Arshdee88720122 " target="_blank ">Twitter</a></span>
 
-    </footer>
 
+
+
+
+        <!-- box -->
+        <!-- animated text -->
+
+
+        <div style="top: 17rem ; font-size:2.5rem;" class=" absolute z-20   ">
+            <span style="position: absolute; left: 2rem " class=" lg:flex  uppercase text-gray-600"><b>Freelancer</b></span><br>
+            <span id="text" class=" lg:flex  uppercase" style="position: absolute; left: 7rem;color: crimson; "></span>
+        </div>
+    </section>
+
+    <section id="section2">
+        <!-- <h2>Section 2</h2> -->
+        <!-- Content of Section 2 -->
+        <!-- fgviebv -->
+
+        <div style="text-align: center;  padding: 16.5rem 0rem;margin-top: 15rem; " class="uppercase">
+            <span style="font-size: 4rem;font-family: 'Rubik Doodle Shadow', serif; font-size: 3rem; color: rgb(255, 89, 0);" class="absolute right-0 left-0  mx-auto">about me</span>
+            <div style="top: 30vh; bottom:0  vh; font-size: 2rem; padding: 2rem ; margin: 3rem;">
+                <img src="./dist/src/about.jpg" alt="err" style="display: block; margin: 0 auto;border-radius: 7rem;">
+                <p class="text-gray-600" style="font-style: italic; margin-top: 3rem;">I'm a final yr student of Btech(CSE)from Fiem,Sonarpur. I'm an ex-Naval NCC cadet, part-time painter and full-time Introvert.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="section3">
+
+        <!-- <h2>Section 3</h2> -->
+        <!-- Content of Section 3 -->
+        <!-- services -->
+        <div style="text-align:center; padding: 10rem 2rem; margin-top: 20rem;" class="uppercase ">
+
+            <span style="font-family: 'Rubik Doodle Shadow', serif; font-size: 3rem; color: rgb(255, 89, 0);margin-top: 8rem; " class=" absolute right-0 left-0  mx-auto ;">Services</span>
+            <div style="margin-top: 12rem; margin-bottom: 8rem; font-weight: bold; color: rgb(141, 139, 139); font-size: 2rem;">
+                <ul>
+                    <li>web automation</li>
+                    <li>video editing</li>
+                    <li>front end dev</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section4">
+        <!-- <h2>Section 4</h2> -->
+        <!-- Content of Section 4 -->
+
+
+
+        <footer style=" z-index: 100; width: 100%; height:8vh ;bottom: 0px;background-color: #0b0b0b ;font-weight: bold;font-style: bold;color: white;margin-top: 0rem; " class=" flex items-center gap-1 sm:gap-10 ">
+            <span style="font-size:1.5rem ;margin-left: 1rem; margin-right: 1rem;">Contact&#9742:-</span>
+            <span style="font-size:1.1rem ;margin-left:1rem; "><a href="https://www.linkedin.com/in/arshdeepsingh11/ " target="_blank ">LinkedIn</a></span>
+            <span style="font-size:1.1rem "><a href="https://github.com/Arsh2001deep " target="_blank ">Github</a></span>
+            <span style="font-size:1.1rem ;margin-right: 1rem;"><a href="https://twitter.com/Arshdee88720122 " target="_blank ">Twitter</a></span>
+
+        </footer>
+    </section>
 
 
 
