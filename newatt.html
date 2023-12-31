@@ -19,23 +19,21 @@
     </div>
     <form action="" class="container" style="width: 80vw; margin-top: 5rem; margin-bottom: 4rem;">
         <div class="mb-5">
-            <label for="dob" class="form-label text-dark" style="margin-right: 15rem;">Date of Birth</label>
-            <select name="day" id="day">
+            <div> <label for="dob" class="form-label text-dark" style="">Date of Birth</label></div>
 
-            <option value="">Day</option>
+            <div> <select name=" day " id="day ">
+
+            <option value=" ">Day</option>
             <script>
 
                 for (let i = 1; i <= 31; i++) {
-                    document.write("<option value='" + i + "'>" + i + "</option>");
-
-                    
-                }
+                    document.write("<option value='" + i + "'>" + i + "</option>"); }
             </script>
-        </select>
+            </select>
 
 
 
-            <select name="month" id="month">
+                <select name="month" id="month">
 
             <option value="">month</option>
             <script>
@@ -47,7 +45,7 @@
                 }
             </script>
         </select>
-            <select name="year" id="year">
+                <select name="year" id="year">
 
             <option value="">year</option>
             <script>
@@ -59,12 +57,15 @@
                 }
             </script>
         </select></div>
+        </div>
 
         <div class="mb-3">
 
-            <label for="grad" class="form-label text-dark" style="margin-right: 4rem;">Final sem exam end date <br>
-                Ex:-6th sem for Bcom/Bsc,<br> 8th sem for Btech. <br> <span style="font-style: italic; color: rgb(121, 120, 120);">Fill expected date if you have not attented the last semester</span>            </label>
-            <select name="gradday" id="gradday">
+            <div> <label for="grad" class="form-label text-dark" style="margin-right: 4rem;">Final sem exam end date <br>
+                Ex:-6th sem for Bcom/Bsc,<br> 8th sem for Btech. <br> <span style="font-style: italic; color: rgb(121, 120, 120);">Fill expected date if you have not attented the last semester</span></label></div>
+
+            <div>
+                <select name="gradday" id="gradday">
 
             <option value="">Day</option>
             <script>
@@ -79,7 +80,7 @@
 
 
 
-            <select name="gradmonth" id="gradmonth">
+                <select name="gradmonth" id="gradmonth">
 
             <option value="">month</option>
             <script>
@@ -91,7 +92,7 @@
                 }
             </script>
         </select>
-            <select name="gradyear" id="gradyear">
+                <select name="gradyear" id="gradyear">
 
             <option value="">year</option>
             <script>
@@ -104,6 +105,7 @@
             </script>
         </select>
 
+            </div>
         </div>
 
         <div> <button type="button" id="button" onclick="getDate(event)" class="btn btn-primary mx-auto form-control">Submit</button></div>
