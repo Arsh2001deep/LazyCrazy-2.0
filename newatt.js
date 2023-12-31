@@ -9,6 +9,12 @@ function getDate(event) {
     let gradyear = parseInt(document.getElementById('gradyear').value)
     console.log("day is ", day);
 
+    // Check if all fields are filled
+    if (!day || !month || !year || !gradday || !gradmonth || !gradyear) {
+        alert('Please fill in all details before submitting.');
+        return; // Stop further execution
+    }
+
     let date = new Date()
 
 
@@ -39,7 +45,7 @@ const newRows = (cyr, byr, gyr, m, d, gm, gd) => {
                 <th>year</th>
                 <th>attempts</th>
                 <th>age limit</th>
-                <th>session start</th>
+                <th>session start at OTA</th>
              
 
 
