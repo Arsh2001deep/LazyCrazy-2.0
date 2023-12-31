@@ -41,11 +41,11 @@ const newRows = (cyr, byr, gyr, m, d, gm, gd) => {
             
         
             
-                <th>graduation</th>
-                <th>year</th>
-                <th>attempts</th>
-                <th>age limit</th>
-                <th>session start at OTA</th>
+                <th>GRADUATION</th>
+                <th>YEAR</th>
+                <th>ATTEMPTS</th>
+                <th>AGE LIMIT</th>
+                <th>SESSION START AT OTA</th>
              
 
 
