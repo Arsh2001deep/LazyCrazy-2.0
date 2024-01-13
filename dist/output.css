@@ -75,7 +75,9 @@ body {
     color: #000000;
     /* Dark mode styles */
     /* Toggle button styles */
+    
 }
+
 
 body.dark-mode {
     background-color: #262626;
